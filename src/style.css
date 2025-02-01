@@ -1,8 +1,8 @@
 .box{background-color:#c06c84;
     margin: 0 auto;
-    display:block;
     padding: 25px;
     max-width: 700px;
+    display:block;
     border-radius: 12px;}
 
 .city{
@@ -22,6 +22,21 @@
     border-radius: 12px;
 }
 strong{color:#c3bef0;}
+
+.weather-data{display: block;}
 .weather-temp{display: flex;
-justify-content: right;
+justify-content:right; position: relative;
+top: -79px;
+left:-150px;
+margin-bottom: -60px;
+}
+.weather-temp-number{font-size: 70px;
+font-weight: bold;}
+
+.weather-icon{font-size: 37px;
+margin-top: 15px;}
+
+.weather-degree{
+    font-size: 30px;
+    margin-top: 10px;
 }
