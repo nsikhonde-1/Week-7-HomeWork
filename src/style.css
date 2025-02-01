@@ -5,7 +5,7 @@
     display:block;
     border-radius: 12px;}
 
-.city{
+#city{
         padding: 15px;
     border: none;
     width: 45%;
@@ -13,7 +13,7 @@
     border-radius: 12px;
     background-color: #ffe9e3;
 }
-.searching{
+#searching{
     padding: 15px;
     border: none;
     width: 20%;
