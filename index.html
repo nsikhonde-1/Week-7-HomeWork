@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="box">
     <header>
-    <form id="form-box" class="form-box">
+    <form class="form-box">
         <input type="text" placeholder="Enter a city" id="city"/>
         <input type="submit" value="Search" id="searching"/>
     </form>
 </header>
 <main>
     <div class="weather-data">
-    <h1>New York</h1>
+    <h1 class="place">New York</h1>
     <p><span id="specDay">Friday</span> 
         <span id="time"><strong >16:17</strong></span>,
-         Sunny <br>
-    Humidity: <strong>54%</strong>, 
-    Wind: <strong>2.3km/h</strong> </p>
+    <span class="detail">Sunny</span> <br>
+    Humidity: <strong class="percentage">54%</strong>, 
+    Wind: <strong class="km">2.3km/h</strong> </p>
 
     <div class="weather-temp">
     <div class="weather-icon">☀️</div>

@@ -27,7 +27,7 @@ strong{color:#c3bef0;}
 .weather-temp{display: flex;
 justify-content:right; position: relative;
 top: -79px;
-left:-150px;
+left:-110px;
 margin-bottom: -60px;
 }
 .weather-temp-number{font-size: 70px;
