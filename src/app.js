@@ -18,7 +18,6 @@ let day = days[now.getDay()]
    let watch = document.querySelector("#time");
    watch.innerHTML = `${hour}:${minutes}`;
 
-let apiKey = "713a631324o2dtc013aaf4374b846544";
 let apiUrl = "https://api.shecodes.io/weather/v1/current?query=${city}&key=713a631324o2dtc013aaf4374b846544&units=metric";
 axios.get(apiUrl).then(displayTemperature);
 
